@@ -132,7 +132,9 @@ footer img{
         font-size: 80px;
         margin-top: 110px;
     }
-   
+   section img{
+       display: none;
+   }
    section{
          display: flex;
          flex-direction: row;
@@ -141,11 +143,22 @@ footer img{
          background-position: center; /* image must be in the center of the page */    
          margin-bottom: 30px;
      }
+   
+     .form{
+         margin-left: 400px;
+     }
+
      form{
          margin: auto;
          max-width: 80%; 
      }
-     
+     .footer{
+         width: 100%;
+         display: flex;
+         justify-content: space-between;
+         margin: 0 auto;
+
+     }
     footer button {
         display: inline;
     }
