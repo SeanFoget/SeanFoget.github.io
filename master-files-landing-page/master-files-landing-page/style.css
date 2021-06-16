@@ -57,7 +57,7 @@ input{
 form p{
     display: inline-block;
 }
-li{
+span{
     color:#ff8480;text-decoration: none;
     list-style: none;
 }
