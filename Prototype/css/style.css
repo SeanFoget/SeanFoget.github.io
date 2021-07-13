@@ -32,9 +32,46 @@ a{
   
     font-weight: 400;
     color: #fff;
-
- 
 }
+.navbar img{
+ 
+    animation-name: scalelogo;
+    animation-duration: 1s; 
+    animation-timing-function: ease-out;
+}
+.navbar img:hover{
+  
+    animation:superscoops 1s ease-out;
+}
+
+@keyframes scalelogo{
+    0%{
+        opacity: 0;
+        transform: scale(-1);
+    }
+    80%{
+        transform: scale(0);
+    }
+    100%{
+        opacity: 1;
+        transform: scale(1);
+    }
+}
+@keyframes superscoops{
+   0%{
+       opacity: 0;
+       transform: scale(-2);
+   }
+   80%{
+       transform: scale(-4);
+   }
+   100%{
+       opacity: 1;
+       transform:scale(0);
+   }
+}
+
+
 /* Header */
 .header{
     height: 100vh;
